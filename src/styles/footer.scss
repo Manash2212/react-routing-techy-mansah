@@ -1,0 +1,44 @@
+@import "colors";
+
+footer {
+  background-color: $fourth;
+  height: 150px;
+  width: 100%;
+  color: $dark;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  >div {
+    margin: 5rem;
+    > h1 {
+      font: 700 2rem $text2;
+      text-transform: uppercase;
+      color: $third;
+    }
+    >p{
+        font: 400 1.4rem $text2;
+    }
+    >h5{
+        font: 400 2rem $text2;
+        margin: 1rem;
+        text-align: center;
+        color: $third;
+    }
+    >div{
+        display: flex;
+        justify-content: center;
+        >a{
+            color: $dark;
+            >svg{
+                font-size: 3rem;
+                padding-right: 1rem;
+                &:hover{
+                    color: $third;
+                }
+            }
+        }
+    }
+  }
+}
